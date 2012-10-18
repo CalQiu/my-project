@@ -1,0 +1,2272 @@
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (225)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] Project.count()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 03:07:00 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 03:07:00 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 03:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (108)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (108)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:44 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:09:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:10:07 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:27 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (80)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tbl_user` SET `last_login_time`=NOW() WHERE `tbl_user`.`id`=1
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (80)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [info] [application.controllers.SiteController] Successful login of user: 1
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (94)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (225)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] Project.count()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 04:10:32 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 04:10:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 04:10:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 04:42:31 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:31 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:31 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (108)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:31 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (108)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:44 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 04:42:47 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 04:42:47 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:56:12 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 13:57:37 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:46 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (80)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tbl_user` SET `last_login_time`=NOW() WHERE `tbl_user`.`id`=3
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (80)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [info] [application.controllers.SiteController] Successful login of user: 3
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (94)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (225)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] Project.count()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 13:57:49 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 13:57:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 13:57:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 14:52:41 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:41 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:41 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:41 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (108)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:41 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (108)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:42 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:51 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:54 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 14:52:54 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 14:52:55 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 14:52:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 16:20:55 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 16:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 16:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 16:20:55 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 16:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 16:20:55 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (16)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (21)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\views\site\rev\login.php (45)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+2012/09/27 18:17:51 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (101)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:09 [trace] [system.CModule] Loading "messages" application component
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (48)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+2012/09/27 18:18:12 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (80)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tbl_user` SET `last_login_time`=NOW() WHERE `tbl_user`.`id`=3
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (80)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (93)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [info] [application.controllers.SiteController] Successful login of user: 3
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (94)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (72)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (73)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\models\User.php (33)
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+2012/09/27 18:18:12 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in C:\calphp\cctrackstar\protected\components\UserIdentity.php (17)
+in C:\calphp\cctrackstar\protected\models\LoginForm.php (63)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (81)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:18:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:18:12 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=88 LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "errorHandler" application component
+2012/09/27 18:18:12 [trace] [system.CModule] Loading "themeManager" application component
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:19:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:19:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:19:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:19:45 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=88 LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "errorHandler" application component
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (2)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (45)
+in C:\calphp\cctrackstar\protected\views\layouts\column1.php (8)
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:19:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\controllers\SiteController.php (45)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (223)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (225)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in C:\calphp\cctrackstar\protected\modules\admin\models\SysMessage.php (25)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (231)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (233)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "themeManager" application component
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] Project.count()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "assetManager" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\calphp\cctrackstar\protected\views\project\index.php (31)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in C:\calphp\cctrackstar\protected\models\Comment.php (28)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (14)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in C:\calphp\cctrackstar\protected\models\Comment.php (116)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (15)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`id_contact` AS `t1_c1`, `author`.`email` AS `t1_c2`, `author`.`username` AS `t1_c3`, `author`.`password` AS `t1_c4`, `author`.`last_login_time` AS `t1_c5`, `author`.`create_time` AS `t1_c6`, `author`.`create_user_id` AS `t1_c7`, `author`.`update_time` AS `t1_c8`, `author`.`update_user_id` AS `t1_c9` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in C:\calphp\cctrackstar\protected\components\views\recentComments.php (5)
+in C:\calphp\cctrackstar\protected\components\RecentComments.php (24)
+in C:\calphp\cctrackstar\protected\views\project\index.php (36)
+2012/09/27 18:29:54 [trace] [system.CModule] Loading "authManager" application component
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 18:29:54 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 18:29:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in C:\calphp\cctrackstar\themes\new\views\layouts\main.php (34)
+in C:\calphp\cctrackstar\protected\views\layouts\column2.php (21)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (242)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:39:48 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:39:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:39:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:39:48 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=88 LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "errorHandler" application component
+2012/09/27 18:39:48 [trace] [system.CModule] Loading "themeManager" application component
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:46:19 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:46:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:46:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:46:19 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=88 LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "errorHandler" application component
+2012/09/27 18:46:19 [trace] [system.CModule] Loading "themeManager" application component
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "log" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "request" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "user" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "session" application component
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "db" application component
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:54:03 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:54:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:54:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in C:\calphp\cctrackstar\protected\models\Project.php (24)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+2012/09/27 18:54:03 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=88 LIMIT 1
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (291)
+in C:\calphp\cctrackstar\protected\controllers\ProjectController.php (100)
+in C:\calphp\cctrackstar\index.php (12)
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "errorHandler" application component
+2012/09/27 18:54:03 [trace] [system.CModule] Loading "themeManager" application component
+2012/09/28 21:53:41 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/09/29 02:31:32 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/01 15:50:34 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/01 15:53:10 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/01 16:50:35 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/01 16:52:59 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/01 17:05:59 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/01 17:13:33 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/01 17:20:04 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/02 17:42:55 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/02 20:39:08 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/04 18:47:23 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/04 18:48:24 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/04 18:53:47 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/05 17:19:32 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/09 19:35:29 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/10 15:45:49 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 16:39:08 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/11 17:24:11 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 17:25:25 [info] [application.controllers.SiteController] Successful login of user: 2
+2012/10/11 17:40:21 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 17:55:38 [info] [application.controllers.SiteController] Successful login of user: 2
+2012/10/11 17:57:02 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 17:59:21 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 18:01:19 [info] [application.controllers.SiteController] Successful login of user: 2
+2012/10/11 18:17:48 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/11 18:57:02 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 19:55:25 [info] [application.controllers.SiteController] Successful login of user: 4
+2012/10/11 20:17:26 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/11 20:54:46 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/11 21:10:18 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/12 16:34:42 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/12 16:36:00 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/12 17:32:07 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/15 16:28:59 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/16 14:54:23 [info] [application.controllers.SiteController] Successful login of user: 1
+2012/10/16 20:34:03 [info] [application.controllers.SiteController] Successful login of user: 3
+2012/10/16 20:50:31 [info] [application.controllers.SiteController] Successful login of user: 3
